@@ -20,12 +20,12 @@ public class Log4ShellFix extends JavaPlugin {
         logger.addFilter(new Filter() {
             @Override
             public Result getOnMismatch() {
-                return null;
+                return Result.NEUTRAL;
             }
 
             @Override
             public Result getOnMatch() {
-                return null;
+                return Result.NEUTRAL;
             }
 
             @Override
