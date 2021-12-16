@@ -105,17 +105,17 @@ public class Log4ShellFix extends JavaPlugin {
 
             @Override
             public void initialize() {
-
+                //empty
             }
 
             @Override
             public void start() {
-
+                //empty
             }
 
             @Override
             public void stop() {
-
+                //empty
             }
 
             @Override
@@ -131,7 +131,7 @@ public class Log4ShellFix extends JavaPlugin {
     }
 
     private Filter.Result check(final String message) {
-        return message.toLowerCase(Locale.ROOT).contains("${jndi") ? Filter.Result.DENY : Filter.Result.NEUTRAL;
+        return message.toLowerCase(Locale.ROOT).contains("${") ? Filter.Result.DENY : Filter.Result.NEUTRAL;
     }
 
 }
