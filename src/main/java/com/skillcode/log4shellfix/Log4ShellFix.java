@@ -1,4 +1,4 @@
-package dev.vengine.log4shellfix;
+package com.skillcode.log4shellfix;
 
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;

@@ -1,4 +1,4 @@
-main: dev.vengine.log4shellfix.Log4ShellFix
+main: com.skillcode.log4shellfix.Log4ShellFix
 name: Log4ShellFix
 version: 1.0
 author: Vengine
